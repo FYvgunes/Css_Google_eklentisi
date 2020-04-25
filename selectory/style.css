@@ -1,0 +1,26 @@
+/*Element*/
+
+/*Classic*/
+/*active*/
+
+
+/*star*/
+*{
+    border: 1px solid #eee;
+}
+/**Descendant*/
+h3 a{
+    color:red;
+    
+}
+ul li{
+    color: red;
+}
+ol li a{
+    color:yellow;
+}
+ol li:nth-child(4)
+{
+    color: red;
+    font-size: 25px;
+}
